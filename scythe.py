@@ -29,7 +29,6 @@ def get_combos(n):
 	for i in range(n):
 		val = factions[factionNums[i]] +'|'+playerMats[playerNums[i]];
 		combos.append(val);
-	print(combos)
 	if bad_combos(combos):
 		combos = get_combos(n);
 		return combos
