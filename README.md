@@ -16,9 +16,15 @@ Can support up to 7 players for Invaders from Afar Expansion. Can also optionall
 ex. 
 
 $ python scythe.py 6
+
+would return
+
 ['Saxony|Militant', 'Nordic|Industrial', 'Rusviet|Patriotic', 'Crimea|Engineering', 'Togawa|Innovative', 'Polania|Agricultural']
 
 ex. 
 
 $ python scythe.py 4 y
+
+would return
+
 ['Polania|Militant', 'Togawa|Innovative', 'Rusviet|Engineering', 'Crimea|Agricultural']
